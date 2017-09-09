@@ -1,6 +1,7 @@
 # TravPro  
-    TravPro is used to find the languages used in a project, and how much each language contributes.  
-    Uses naive method of recursively traversing through the project directory, and checking extensions of each file.
+TravPro is used to find the languages used in a project, and how much each language contributes.  
+Uses naive method of recursively traversing through the project directory,  
+and checking extensions of each file.
 
 ## Usage  
   * clone the repository `git clone https://github.com/Samy-33/TravPro.git`  
