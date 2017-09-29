@@ -106,6 +106,10 @@ if __name__ == '__main__':
         # print(parser)
         exit(0)
     else:
+
+        if not os.path.isdir(args.path):
+            print('{} is not a valid project directory'.format(args.path))
+
         trav = TravPro(args.path)
         trav.travel()
         trav.print_results()
